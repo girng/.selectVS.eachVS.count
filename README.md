@@ -14,5 +14,6 @@ Benchmark to test the performance difference between Hash.select, Hash.values.co
  
 ### Contributing
  - This is still a work in progress, if you can enhance this benchmark please submit a PR or issue, thanks!
+ - Thanks for stopping by!
  
  
