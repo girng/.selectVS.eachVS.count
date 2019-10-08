@@ -7,7 +7,7 @@ Benchmark to test the performance difference between Hash.select, Hash.values.co
 
 ### Current Results:
 
- - ![](https://i.gyazo.com/3e7a6d9e83946eac49552f8bb514ed36.png)
+ - ![](https://i.gyazo.com/24a6d15f6a0a4e5e846f19ac0ab89f5a.png)
 
 ### Final Thoughts
  - Looks like the old fashion .each iterator is a beast! Assuming the benchmark is not skewed and correct (please submit a new PR to fix)
