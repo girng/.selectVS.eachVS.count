@@ -3,7 +3,7 @@
 Benchmark to test the performance difference between Hash.select, Hash.values.count, and the old fashion .each iterator
 
 ### Usage
- - crystal selectvseachvscount.cr --release
+ - `crystal selectvseachvscount.cr --release`
 
 ### Current Results:
 
