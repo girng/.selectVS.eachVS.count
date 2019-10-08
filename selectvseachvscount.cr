@@ -29,7 +29,7 @@ def select_me_baby_one_more_time
 end
 
 def itemsvaluescount
-  count = Items.values.count { |v|
+  count = Items.count { |_, v|
     v.owner_id == USER_ID
   }
   count
