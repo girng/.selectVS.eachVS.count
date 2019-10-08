@@ -11,7 +11,7 @@ Benchmark to test the performance difference between Hash.select, Hash.values.co
 
 ### Final Thoughts
  - Looks like the old fashion .each iterator and .count are beasts! Assuming the benchmark is not skewed and correct (please submit a new PR to fix)
- - Also seems like, sometimes developers can fall into the trap of using `.select`. However, if you just need to rely on obtaining the size of elements, `.count`, and `.each` are much faster.
+ - Also seems like, sometimes developers can fall into the trap of using `.select`. However, if you just need to obtain the size of a hash / array, `.count`, and `.each` are much faster.
  
 ### Contributing
  - This is still a work in progress, if you can enhance this benchmark please submit a PR or issue, thanks!
